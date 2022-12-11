@@ -16,7 +16,7 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 2160
 
 # Voltage Build Type
-VOLTAGE_BUILD_TYPE := OFFICIAL
+VOLTAGE_BUILD_TYPE := UNOFFICIAL
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)

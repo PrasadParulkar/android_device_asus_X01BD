@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_X01BD.mk
+    $(LOCAL_DIR)/aosp_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_X01BD-eng \
-    voltage_X01BD-user \
-    voltage_X01BD-userdebug
+    aosp_X01BD-eng \
+    aosp_X01BD-user \
+    aosp_X01BD-userdebug

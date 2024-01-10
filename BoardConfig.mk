@@ -41,5 +41,8 @@ $(foreach p, $(call to-upper, $(BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST)), \
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/tpd_gesture"
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
+
 # Inherit the proprietary files
 include vendor/asus/X01BD/BoardConfigVendor.mk

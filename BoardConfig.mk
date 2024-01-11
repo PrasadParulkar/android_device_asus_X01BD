@@ -25,5 +25,8 @@ TARGET_KERNEL_CONFIG := asus/X01BD_defconfig
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/kernel/touchpanel/dclicknode"
 
+# Sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Inherit the proprietary files
 include vendor/asus/X01BD/BoardConfigVendor.mk

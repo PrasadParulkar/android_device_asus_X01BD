@@ -26,7 +26,10 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 #
-
+on early-boot
+     chown system system /dev/input/event3  # stk3x3x-light
+     chown system system /dev/input/event4  # stk3x3x-proximity
+     
 on boot
     # Permissions for stk3x3x promiximity and light sensors
     chmod 0644 /sys/class/sensors/stk3x3x-proximity/sensors_enable
